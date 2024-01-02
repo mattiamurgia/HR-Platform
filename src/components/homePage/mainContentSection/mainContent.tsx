@@ -1,6 +1,6 @@
 import React from "react";
-import DescriptionComponent from "./descriptionComponent";
-import DescriptionImage from "./descriptionImage";
+import DescriptionComponent from "./DescriptionComponent";
+import DescriptionImage from "./DescriptionImage";
 
 const MainContent = () => {
   return (

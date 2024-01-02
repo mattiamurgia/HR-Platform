@@ -1,6 +1,6 @@
 import React from "react";
-import HeadingLastSection from "./headingLastSection";
-import ImageContainerLastSection from "./imageContainerLastSection";
+import HeadingLastSection from "./HeadingLastSection";
+import ImageContainerLastSection from "./ImageContainerLastSection";
 
 const ContainerLastSection = () => {
   return (

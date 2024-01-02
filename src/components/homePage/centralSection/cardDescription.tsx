@@ -5,7 +5,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { CardPlan } from "../../../types/CardPlan";
-import Spinner from "../../mainComponents/spinner/spinner";
+import Spinner from "../../mainComponents/spinner/Spinner";
 
 const CardDescription = ({
   image,

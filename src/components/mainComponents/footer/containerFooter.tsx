@@ -1,10 +1,10 @@
 import React from "react";
 import useGetTableDB from "../../../hook/useConnectDB";
-import IconFooter from "./iconFooter";
+import IconFooter from "./IconFooter";
 import { LinkText } from "../../../types/LinkText";
 
 const ContainerFooter = () => {
-  const dataFooter: LinkText[] = useGetTableDB("FooterData") as LinkText[];
+  const dataFooter: LinkText[] = useGetTableDB("FooterData");
 
   return (
     <footer className=" bg-second-green">
@@ -25,9 +25,9 @@ const ContainerFooter = () => {
         </p>
 
         <ul className="flex flex-wrap justify-center gap-6 mt-12 md:gap-8 lg:gap-12 text-main-green">
-          {dataFooter.map(({ linkName }) => (
+          {dataFooter.map(({ linkName, pathUrl }) => (
             <li>
-              <a href="/">{linkName}</a>
+              <a href={pathUrl}>{linkName}</a>
             </li>
           ))}
         </ul>

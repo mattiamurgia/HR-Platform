@@ -1,12 +1,11 @@
 import React, { useContext, useState } from "react";
 import { Switch } from "@headlessui/react";
-import { stateToggle } from "./containerSolution";
+import { stateToggle } from "./ContainerSolution";
 
 const Toggle = () => {
   const toggleState = useContext(stateToggle);
   const [enabled, setEnabled] = useState(true);
 
-  console.log("Questo è lo stato di enabled: ❌", enabled);
 
   return (
     <Switch

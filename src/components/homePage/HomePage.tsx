@@ -1,15 +1,15 @@
 import React from "react";
 import Navbar from "../mainComponents/navbar/Navbar";
 import HeroSection from "./heroSection/HeroSection";
-import ContainerCardUses from "./cardUses/containerCardUses";
-import MainContent from "./mainContentSection/mainContent";
-import ContainerSection from "./centralSection/containerSection";
-import ContainerSolution from "./solutionSection/containerSolution";
-import SectionFaq from "./faqSection/sectionFaq";
-import ContainerCarousel from "./carouselSection/containerCarousel";
-import ContainerPreFooter from "./preFooterSection/containerPreFooter";
-import ContainerLastSection from "./lastSection/containerLastSection";
-import ContainerFooter from "../mainComponents/footer/containerFooter";
+import ContainerCardUses from "./cardUses/ContainerCardUses";
+import MainContent from "./mainContentSection/MainContent";
+import ContainerSection from "./centralSection/ContainerSection";
+import ContainerSolution from "./solutionSection/ContainerSolution";
+import SectionFaq from "./faqSection/SectionFaq";
+import ContainerCarousel from "./carouselSection/ContainerCarousel";
+import ContainerPreFooter from "./preFooterSection/ContainerPreFooter";
+import ContainerLastSection from "./lastSection/ContainerLastSection";
+import ContainerFooter from "../mainComponents/footer/ContainerFooter";
 
 const HomePage = () => {
   return (

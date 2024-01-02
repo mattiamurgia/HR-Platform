@@ -1,10 +1,10 @@
 import React, { useEffect, createContext, useState } from "react";
-import DescriptionSolution from "./descriptionSolution";
-import Toggle from "./toggle";
-import CardSolution from "./cardSolution";
+import DescriptionSolution from "./DescriptionSolution";
+import Toggle from "./Toggle";
+import CardSolution from "./CardSolution";
 import useGetTableDB from "../../../hook/useConnectDB";
 import { CardSolutionType } from "../../../types/CardSolution";
-import Spinner from "../../mainComponents/spinner/spinner";
+import Spinner from "../../mainComponents/spinner/Spinner";
 
 export const stateToggle = createContext<Function>(() => {});
 
@@ -12,7 +12,7 @@ const ContainerSolution = () => {
   const useDB = (dbName: "Talents Solution" | "Business Solution") => {
     const card: CardSolutionType[] = useGetTableDB(
       `${dbName}`
-    ) as unknown as CardSolutionType[];
+    );
     return card;
   };
 
@@ -24,7 +24,6 @@ const ContainerSolution = () => {
 
   useEffect(() => {
     state ? setCard(cardTalents) : setCard(cardBusiness);
-    console.log("sono state dentro useEfect ✅: ", state, card);
   }, [state, card, cardTalents, cardBusiness]);
 
   return (

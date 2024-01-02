@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../mainComponents/navbar/Navbar";
-import Error from "./error";
-import ContainerFooter from "../mainComponents/footer/containerFooter";
+import Error from "./Error";
+import ContainerFooter from "../mainComponents/footer/ContainerFooter";
 
 const ErrorSection = () => {
   return (

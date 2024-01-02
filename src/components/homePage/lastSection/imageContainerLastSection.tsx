@@ -1,5 +1,5 @@
 import React from "react";
-import CardLastSection from "./cardLastSection";
+import CardLastSection from "./CardLastSection";
 
 const ImageContainerLastSection = () => {
   return (

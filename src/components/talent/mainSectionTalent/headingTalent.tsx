@@ -1,5 +1,5 @@
 import React from "react";
-import AvatarIcon from "./avatarIcon";
+import AvatarIcon from "./AvatarIcon";
 
 const HeadingTalent = () => {
   return (

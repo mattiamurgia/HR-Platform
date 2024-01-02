@@ -1,14 +1,14 @@
 import React from "react";
-import CardDescription from "./cardDescription";
+import CardDescription from "./CardDescription";
 import useGetTableDB from "../../../hook/useConnectDB";
 import { CardPlan } from "../../../types/CardPlan";
-import DescriptionSection from "./descriptionSection";
-import Spinner from "../../mainComponents/spinner/spinner";
+import DescriptionSection from "./DescriptionSection";
+import Spinner from "../../mainComponents/spinner/Spinner";
 
 const ContainerSection = () => {
   const card: CardPlan[] = useGetTableDB(
     "Card Description"
-  ) as unknown as CardPlan[];
+  );
 
   return (
     <div className="w-full px-1 md:px-10 py-28 bg-second-green ">

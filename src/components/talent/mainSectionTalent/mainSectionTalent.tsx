@@ -1,6 +1,6 @@
 import React from "react";
-import HeadingTalent from "./headingTalent";
-import TalentImage from "./talentImage";
+import HeadingTalent from "./HeadingTalent";
+import TalentImage from "./TalentImage";
 
 const MainSectionTalent = () => {
   return (

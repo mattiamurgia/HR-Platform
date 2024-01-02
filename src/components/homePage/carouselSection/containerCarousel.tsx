@@ -1,5 +1,5 @@
 import React from "react";
-import CarouselControlsOutside from "./carouselControlsOutside";
+import CarouselControlsOutside from "./CarouselControlsOutside";
 import { faCircleUser } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 

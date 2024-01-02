@@ -1,6 +1,6 @@
 import React from "react";
-import HeadingPreFooter from "./headingPreFooter";
-import ImagePreFooter from "./imagePreFooter";
+import HeadingPreFooter from "./HeadingPreFooter";
+import ImagePreFooter from "./ImagePreFooter";
 
 const ContainerPreFooter = () => {
   return (

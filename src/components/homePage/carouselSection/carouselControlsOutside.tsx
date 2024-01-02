@@ -1,13 +1,13 @@
 import { useEffect } from "react";
 import GLide from "@glidejs/glide";
-import CardCarousel from "./cardCarousel";
+import CardCarousel from "./CardCarousel";
 import useGetTableDB from "../../../hook/useConnectDB";
 import { CardReview } from "../../../types/CardReview";
 
 export default function CarouselControlsOutside() {
   const arrayCardReview: CardReview[] = useGetTableDB(
     "Recensioni"
-  ) as unknown as CardReview[];
+  );
 
   useEffect(() => {
     setTimeout(() => {

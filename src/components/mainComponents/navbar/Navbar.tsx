@@ -28,7 +28,7 @@ const Navbar = () => {
             <li>
               <Link to="/talent">
                 <a
-                  href="/"
+                  href="/talent"
                   className="block py-2 pl-3 pr-4 rounded text-second-green md:p-0"
                 >
                   Per i talenti
@@ -40,52 +40,64 @@ const Navbar = () => {
                 </a>
               </Link>
             </li>
+
             <li>
-              <a
-                href="/"
-                className="block py-2 pl-3 pr-4 rounded text-second-green md:p-0"
-              >
-                Per le aziende
-                <FontAwesomeIcon
-                  icon={faAngleUp}
-                  rotation={180}
-                  className="h-3 ml-1 align-middle"
-                />
-              </a>
+              <Link to="/companies">
+                <a
+                  href="/companies"
+                  className="block py-2 pl-3 pr-4 rounded text-second-green md:p-0"
+                >
+                  Per le aziende
+                  <FontAwesomeIcon
+                    icon={faAngleUp}
+                    rotation={180}
+                    className="h-3 ml-1 align-middle"
+                  />
+                </a>
+              </Link>
             </li>
+
             <li>
-              <a
-                href="/"
-                className="block py-2 pl-3 pr-4 rounded text-second-green md:p-0 "
-              >
-                Prezzi
-              </a>
+              <Link to="/price">
+                <a
+                  href="/price"
+                  className="block py-2 pl-3 pr-4 rounded text-second-green md:p-0 "
+                >
+                  Prezzi
+                </a>
+              </Link>
             </li>
+
             <li>
-              <a
-                href="/"
-                className="block py-2 pl-3 pr-4 rounded text-second-green md:p-0"
-              >
-                Collaboriamo
-                <FontAwesomeIcon
-                  icon={faAngleUp}
-                  rotation={180}
-                  className="h-3 ml-1 align-middle"
-                />
-              </a>
+              <Link to="/collaborations">
+                <a
+                  href="/collaborations"
+                  className="block py-2 pl-3 pr-4 rounded text-second-green md:p-0"
+                >
+                  Collaboriamo
+                  <FontAwesomeIcon
+                    icon={faAngleUp}
+                    rotation={180}
+                    className="h-3 ml-1 align-middle"
+                  />
+                </a>
+              </Link>
             </li>
+
             <li>
-              <a
-                href="/"
-                className="block py-2 pl-3 pr-4 rounded text-second-green md:p-0"
-              >
-                Risorse
-                <FontAwesomeIcon
-                  icon={faAngleUp}
-                  rotation={180}
-                  className="h-3 ml-1 align-middle"
-                />
-              </a>
+              <Link to="/resources">
+                <a
+                  href="/resources"
+                  className="block py-2 pl-3 pr-4 rounded text-second-green md:p-0"
+                >
+                  Risorse
+                  <FontAwesomeIcon
+                    icon={faAngleUp}
+                    rotation={180}
+                    className="h-3 ml-1 align-middle"
+                  />
+                </a>
+              </Link>
             </li>
           </ul>
         </div>

@@ -16,4 +16,16 @@ body {
   .card-uses {
     @apply inline-block px-14 py-12 border-[0.5px] rounded-md  border-second-green hover:border-none border-solid bg-dirty-white relative z-10 hover:drop-shadow-2xl;
   }
+
+  .hide-scrollbar::-webkit-scrollbar {  
+    display: none;
+  }
+
+  .text-stroke-3 {
+    -webkit-text-stroke: 1.5px black;
+}
+
+.effect-card{
+  @apply hover:opacity-[0.2] hover:border-[#ED955A] hover:border-t-8 hover:border-b-0 hover:border-r-8 hover:border-l-0 hover:skew-y-[-3deg] hover:shadow-xl hover:shadow-[#ED955A]/50
+}
 }

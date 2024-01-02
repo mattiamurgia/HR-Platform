@@ -1,6 +1,6 @@
 import React from "react";
-import SolutionDescription from "./solutionDescription";
-import ContainerCardSolution from "./containerCardSolution";
+import SolutionDescription from "./SolutionDescription";
+import ContainerCardSolution from "./ContainerCardSolution";
 
 const TalentSolution = () => {
   return (

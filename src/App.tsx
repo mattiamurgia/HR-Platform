@@ -3,7 +3,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./App.css";
 import HomePage from "./components/homePage/HomePage";
 import TalentSection from "./components/talent/TalentSection";
-import ErrorSection from "./components/error/errorSection";
+import ErrorSection from "./components/error/ErrorSection";
 
 const router = createBrowserRouter([
   { path: "/", element: <HomePage /> },

@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
-import Spinner from "../../mainComponents/spinner/spinner";
+import Spinner from "../../mainComponents/spinner/Spinner";
 import { CardReview } from "../../../types/CardReview";
 
 const CardCarousel: React.FC<CardReview> = ({ arrayCardDB }) => {

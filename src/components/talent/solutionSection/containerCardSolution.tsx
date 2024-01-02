@@ -1,16 +1,14 @@
 import React from "react";
-import SolutionCard from "./solutionCard";
+import SolutionCard from "./SolutionCard";
 import { CardTalent } from "../../../types/CardTalent";
-import Spinner from "../../mainComponents/spinner/spinner";
+import Spinner from "../../mainComponents/spinner/Spinner";
 import useGetTableDB from "../../../hook/useConnectDB";
 
 const ContainerCardSolution = () => {
-  const arrayCard: CardTalent[] = useGetTableDB(
-    "Main Card Talent"
-  ) as unknown as CardTalent[];
+  const arrayCard: CardTalent[] = useGetTableDB("Main Card Talent");
 
   return (
-    <div className="flex flex-col h-full p-5 items-center gap-10 min-[992px]:w-6/12 w-screen min-[992px]:px-10 self-end px-5">
+    <div className="flex flex-col h-full items-center gap-10 min-[992px]:w-6/12 w-screen min-[992px]:px-10 self-end px-5">
       {arrayCard ? (
         arrayCard.map(
           ({

@@ -1,12 +1,12 @@
 import React from "react";
-import BelowDescription from "./belowDescription";
+import BelowDescription from "./BelowDescription";
 import useGetTableDB from "../../../hook/useConnectDB";
 import { Card } from "../../../types/Card";
-import ColBenefits from "./colBenefits";
-import Spinner from "../../mainComponents/spinner/spinner";
+import ColBenefits from "./ColBenefits";
+import Spinner from "../../mainComponents/spinner/Spinner";
 
 const DescriptionComponent = () => {
-  const items = useGetTableDB("Card Main Content") as unknown as Card[];
+  const items:Card[] = useGetTableDB("Card Main Content");
 
   return (
     <div className="w-screen mr-5 md:text-start">
